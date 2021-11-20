@@ -14,4 +14,4 @@ spring:
             client-id: 4a8e1cf9-29a1-4c89-87c8-66a74a9f906e
             client-secret: KP77Q~p0JOEQuUEKBYwUxajrtgK~xedFygADB
             scope: openid, profile # Refs: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes
-            redirect-uri: http://localhost:8080/login/oauth2/code/
+           # redirect-uri: http://localhost:8080/login/oauth2/code/
