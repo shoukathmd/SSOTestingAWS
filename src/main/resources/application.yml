@@ -6,12 +6,12 @@ spring:
       client:
         provider: # Refs: https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2login-common-oauth2-provider
           azure-active-directory:
-            issuer-uri: https://login.microsoftonline.com/9feebc97-ff04-42c9-a152-767073872118/v2.0 # Refs: https://docs.spring.io/spring-security/site/docs/current/reference/html5/#webflux-oauth2-login-openid-provider-configuration
+            issuer-uri: https://login.microsoftonline.com/3153a8d3-69c7-46e7-a417-b614f0cfa4fb/v2.0 # Refs: https://docs.spring.io/spring-security/site/docs/current/reference/html5/#webflux-oauth2-login-openid-provider-configuration
             user-name-attribute: name
         registration:
           cox:
             provider: azure-active-directory
-            client-id: 4a8e1cf9-29a1-4c89-87c8-66a74a9f906e
-            client-secret: KP77Q~p0JOEQuUEKBYwUxajrtgK~xedFygADB
+            client-id: e1094794-9aad-4084-899e-cd4599baec96
+            client-secret: jF.7Q~EHgsC3VQNkamxgaZYPUFRFa8AJ~KUR.
             scope: openid, profile # Refs: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes
-           # redirect-uri: http://localhost:8080/login/oauth2/code/
+            redirect-uri: http://18.116.66.218/login/oauth2/code/
